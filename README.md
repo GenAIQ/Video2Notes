@@ -61,17 +61,17 @@ ANTHROPIC_API_KEY=your_api_key_here
 
 Process a single video:
 ```bash
-python src/main.py video.mp4 -o output_dir
+python main.py video.mp4 -o output_dir
 ```
 Process a directory of videos:
 ```bash
-python src/main.py videos_directory -o output_dir
+python main.py videos_directory -o output_dir
 ```
 
 ### Advanced Options
 
 ```bash
-python src/main.py input_path \
+python main.py input_path \
     --output-dir output_dir \
     --whisper-model medium \
     --device cuda \
